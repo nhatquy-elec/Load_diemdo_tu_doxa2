@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Clicker Extension",
+  "version": "1.1",
+  "description": "Tự động điền giá trị, chọn tọa độ chuột và click.",
+  "permissions": ["scripting", "tabs", "activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "host_permissions": ["<all_urls>"]
+}
